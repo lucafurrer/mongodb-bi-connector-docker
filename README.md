@@ -2,9 +2,15 @@
 
 ## Setup
 
+### ODBC
+
 Follow <https://docs.mongodb.com/bi-connector/current/connect/powerbi>. When setting up the ODBC Connector in window it is important to select the database otherwise PowerBI is not able to handle it.
 
-I had to restart the containers to see the my test DB appear in PowerBI
+I had to restart the containers to see the my test DB appear in PowerBI.
+
+### MySQL
+
+It is possible to connect to the the BI Connector using the MySQL connector as well. This simplifies the setup quite a bit. Simply point the connection to the BI Connector address
 
 ## Ports
 
